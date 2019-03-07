@@ -24,14 +24,14 @@ class PCFWeb:
         username_field = self.driver.find_element_by_name("username")
         print("The field was found: \"username\"")
         username_field.send_keys(self.user)
-        print("Filling the field \"username\" com o valor: \"{}\"".format(self.user))
+        print("Filling the field \"username\" with value: \"{}\"".format(self.user))
         print("{}".format("-"*50))
 
         print("Searching field: \"password\"")
         password_field = self.driver.find_element_by_name("password")
         print("The field was found: \"password\"")
         password_field.send_keys(self.password)
-        print("Filling the field \"password\" com o valor: \"{}\"".format(self.password))
+        print("Filling the field \"password\" with value: \"{}\"".format(self.password))
         print("{}".format("-"*50))
 
         print("Searching button to Enter")
